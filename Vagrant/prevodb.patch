@@ -1,0 +1,13 @@
+diff --git a/configure.ac b/configure.ac
+index 6030274..2179ef0 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -18,7 +18,7 @@ GETTEXT_PACKAGE=prevo
+ AC_SUBST(GETTEXT_PACKAGE)
+ AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE, "$GETTEXT_PACKAGE",
+                    [The gettext package name])
+-AM_GNU_GETTEXT_VERSION([0.19])
++AM_GNU_GETTEXT_VERSION([0.18])
+ AM_GNU_GETTEXT([external])
+ 
+ ALL_WARNING_CFLAGS="-Wall -Wuninitialized -Wempty-body -Wformat

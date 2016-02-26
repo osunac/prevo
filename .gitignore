@@ -1,8 +1,9 @@
-/local.properties
-/project.properties
-/bin
-/libs
-/gen
+/.vagrant
+/gradle
+/gradlew
+/gradlew.bat
+/prevodb
+/revo
 
 /assets/articles/article-*.bin
 /assets/indices/index-*.bin
